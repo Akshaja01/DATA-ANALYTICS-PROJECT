@@ -1,5 +1,5 @@
 import streamlit as st
-#import joblib
+import joblib
 
 st.set_page_config(page_title="Real Estate Price Prediction", page_icon="🏠", layout="wide")
 st.title("🏠 Real Estate Price Prediction")
