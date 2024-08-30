@@ -46,7 +46,7 @@ km_final = KMeans(n_clusters=2, init='k-means++', max_iter=300, random_state=0) 
 df['new_label'] = km_final.fit_predict(x)
 
 st.header('📊 WHOLESALE CUSTOMERS DATA SET WITH NEW LABELS 📊')
-st.table(df)
+st.table(df.head())
 
 st.header("Visualizing the new labels and clusters")
 
