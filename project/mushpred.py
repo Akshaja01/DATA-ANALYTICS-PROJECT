@@ -10,7 +10,7 @@ st.set_page_config(page_title="Mushroom Classification", page_icon="🍄", layou
 
 st.title("🍄 Mushroom Data Analysis and Classification")
 
-mdf = pd.read_csv("mushrooms.csv")
+mdf = pd.read_csv("project/mushrooms.csv")
 st.header("Mushroom Dataset")
 st.dataframe(mdf.head())
 
