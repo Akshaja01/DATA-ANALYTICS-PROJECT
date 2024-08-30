@@ -1,12 +1,12 @@
 import streamlit as st
-import pickle
+import joblib
 
 st.set_page_config(page_title="Real Estate Price Prediction", page_icon="🏠", layout="wide")
 st.title("🏠 Real Estate Price Prediction")
 
-model_ridge = pickle.load(open('ridge_real_estate.pkl', 'rb'))
-model_lasso = pickle.load(open('lasso_real_estate.pkl', 'rb'))
-model_elasticnet = pickle.load(open('elasticnet_real_estate.pkl', 'rb'))
+model_ridge = joblib.load('project/ridge_real_estate.pkl')
+model_lasso = joblib.load('project/lasso_real_estate.pkl')
+model_elasticnet = joblib.load('project/elasticnet_real_estate.pkl')
 
 st.header("Prediction")
 
