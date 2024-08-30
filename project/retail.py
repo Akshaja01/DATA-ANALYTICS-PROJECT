@@ -12,7 +12,7 @@ st.set_page_config(page_title="Retail Sales Dashboard", page_icon=":bar_chart:",
 st.title(":bar_chart: Retail Sales Dashboard")
 
 
-df = pd.read_csv("retail_sales_dataset.csv")
+df = pd.read_csv("project/retail_sales_dataset.csv")
 
 
 st.subheader("First 5 Rows of Retail Data")
