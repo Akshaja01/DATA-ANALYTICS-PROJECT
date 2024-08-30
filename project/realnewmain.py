@@ -9,7 +9,7 @@ st.set_page_config(page_title="Real Estate Price Analysis", page_icon="🏠", la
 st.title("🏠 Real Estate Price Data Analysis 📊")
 
 
-sdf = pd.read_csv("Real estate.csv")
+sdf = pd.read_csv("project/Real estate.csv")
 st.subheader("Real Estate Dataset")
 st.dataframe(sdf.head())
 
