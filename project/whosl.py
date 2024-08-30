@@ -11,7 +11,7 @@ st.set_page_config(page_title="Wholesale Customers Data Analysis", page_icon="�
 st.title("📊 Wholesale Customers Data Analysis 📊")
 
 
-df = pd.read_csv('Wholesale_customers_data.csv')
+df = pd.read_csv('project/Wholesale_customers_data.csv')
 st.header('📊 WHOLESALE CUSTOMERS DATA SET 📊')
 st.table(df.head())
 
